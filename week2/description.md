@@ -6,4 +6,4 @@
 
 ## Lab3: 9 line priority encoder
 
-## Lab4: Simple 4 bi tALU Logic operations
+## Lab4: Simple 4 bit ALU Logic operations
