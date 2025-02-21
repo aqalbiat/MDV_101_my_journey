@@ -27,3 +27,31 @@ it is possilbe to mimick all the logic circuits only with NAND gates
 ## Conclusion
 
 Combinational logic circuits are essential in digital electronics, providing the foundation for decision-making processes in computers and other digital systems. Understanding how they work is crucial for anyone interested in electronics, as these circuits are used everywhere, from simple calculators to complex computer processors.
+
+# Step-by-step design of the 1-bit half adder
+
+## Step 1. Understanding the problem
+
+given two bits A and B find their sum and carry
+
+1) Sum (S): adding the A and B
+2) Carry (Cout): the value that needs to be added to next bit if this bit overflows
+
+## Step 2. Truth table
+
+    A   B   S   Cout
+    0   0   0   0
+    0   1   1   0
+    1   0   1   0
+    1   1   0   1
+
+## Step 3. Derive the Boolean Expression Using AND, OR, NOT
+
+1) S = (A and not(B)) or (not(A) and B)
+2) C = A and B
+
+## Step 4. Build the circuit
+
+Just take 2 AND gates and 1 OR gate to implement the sum (S).
+Then add another AND gate and plug inputs A, B parallel to it to get the carry (Cout).
+And you will get the 1-bit half adder.
