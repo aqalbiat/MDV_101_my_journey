@@ -55,3 +55,13 @@ given two bits A and B find their sum and carry
 Just take 2 AND gates and 1 OR gate to implement the sum (S).
 Then add another AND gate and plug inputs A, B parallel to it to get the carry (Cout).
 And you will get the 1-bit half adder.
+
+# Sequential Logic. Definition
+
+## Key Characteristics
+
+1) Memory Elements (D-latches or flip-flops to store memory)
+2) Feedback Loops (its output is fed back to input to contain the state)
+3) Dependance on clock signals (usually sequential logic circuits are synchronous)
+4) State-based operations (output depends not only on input but also on state and clock)
+
