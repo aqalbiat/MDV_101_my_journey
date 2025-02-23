@@ -65,3 +65,25 @@ And you will get the 1-bit half adder.
 3) Dependance on clock signals (usually sequential logic circuits are synchronous)
 4) State-based operations (output depends not only on input but also on state and clock)
 
+## Basic building blocks
+
+1) Latches (1 bit, usually it is SR (set-reset) latch that will set or reset to 1/0 depending on input)
+2) Flip-Flops (1 bit, their set-signal is controlled by clock, usually it is D-FlipFlop (data flip-flop))
+3) Clock Signals (it is the periodic waveform that synchronizes the change of state in sequential logic)
+        - state will change one rising edge or falling edge of the clock
+
+## Representing sequential logic
+
+1) State diagrams
+2) State tables
+3) Timing diagrams
+
+## Examples of Sequential Logic circuits
+
+Counters, Shift registers, Finite State Machines
+
+## Conclusion
+
+Sequential logic is essential for designing circuits that require memory or state-based operations. It allows circuits to maintain
+states, synchronize with clock signals, and respond to sequences of inputs over time, making it the backbone of memory devices,
+processors, and complex digital systems.
