@@ -1,0 +1,6 @@
+addi r0 143
+addi r3 190
+sub r3 r0
+addi r4 255
+shli r4 8
+xor r3 r4

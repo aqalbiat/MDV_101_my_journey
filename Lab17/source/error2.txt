@@ -1,0 +1,4 @@
+addi r4 loer#
+addi r5 34
+shli r4 3
+sub r5 r4

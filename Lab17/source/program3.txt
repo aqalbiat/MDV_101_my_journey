@@ -1,0 +1,7 @@
+addi r1 14
+add r2 r1
+shli r1 2
+add r2 r1
+shli r1 1
+add r2 r1
+sub r1 r1

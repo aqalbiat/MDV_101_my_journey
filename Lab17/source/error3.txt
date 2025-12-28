@@ -1,0 +1,7 @@
+addi r6 234
+addi r4 102
+addi r2 194
+subi r1 255
+sll r2 r1
+and r2 r4
+xor r2 r6
